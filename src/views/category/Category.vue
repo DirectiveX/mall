@@ -1,10 +1,25 @@
 <template>
-  <h2>种类</h2>
+  <div>
+    <main-navigation title="类别"></main-navigation>
+  </div>
 </template>
 
 <script>
+import MainNavigation from 'components/content/MainNavigation'
+
 export default {
-  name: 'Category'
+  name: 'Category',
+  components: {
+    MainNavigation
+  },
+  data () {
+    return {
+    }
+  },
+  mounted () {
+  },
+  methods: {
+  }
 }
 </script>
 

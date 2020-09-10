@@ -17,5 +17,8 @@ export default {
   left: 0px;
   right: 0px;
   display: flex;
+
+  background-color: lightgrey;
+  box-shadow: 0px -3px 1px rgba(239, 239, 239, 0.8);
 }
 </style>

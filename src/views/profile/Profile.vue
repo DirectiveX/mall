@@ -1,10 +1,15 @@
 <template>
-  <h2>个人信息</h2>
+  <main-navigation title="个人信息"></main-navigation>
 </template>
 
 <script>
+import MainNavigation from 'components/content/MainNavigation'
+
 export default {
-  name: 'Profile'
+  name: 'Profile',  
+  components: {
+    MainNavigation
+  }
 }
 </script>
 
